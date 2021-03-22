@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demoamplifybase-dev-161025-authRole",
+      "UnauthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-161025-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-161025-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-demoamplifybase-dev-161025-deployment",
+      "UnauthRoleName": "amplify-demoamplifybase-dev-161025-unauthRole",
+      "StackName": "amplify-demoamplifybase-dev-161025",
+      "StackId": "arn:aws:cloudformation:us-west-2:871227404402:stack/amplify-demoamplifybase-dev-161025/06ee0a60-8afb-11eb-a786-0ac20f515167",
+      "AmplifyAppId": "dobb70d0ky58e"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dobb70d0ky58e",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "demoamplifybaseac90cf9e": {
+          "deploymentBucketName": "amplify-demoamplifybase-dev-161025-deployment",
+          "s3Key": "amplify-builds/demoamplifybaseac90cf9e-623970427078412f6c36-build.zip"
+        }
+      },
+      "auth": {
+        "demoamplifybaseaac36fe6": {}
+      }
+    }
+  }
+}
