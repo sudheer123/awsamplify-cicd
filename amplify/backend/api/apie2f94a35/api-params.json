@@ -2,30 +2,30 @@
     "paths": [
         {
             "name": "/items",
-            "lambdaFunction": "demoamplifybaseac90cf9e",
+            "lambdaFunction": "demoamplifybase2ae0b9d7",
             "privacy": {
                 "open": true
             },
             "policyResourceName": "/items"
         }
     ],
-    "resourceName": "apid0f7f301",
-    "apiName": "apid0f7f301",
+    "resourceName": "apie2f94a35",
+    "apiName": "apie2f94a35",
     "functionArns": [
         {
-            "lambdaFunction": "demoamplifybaseac90cf9e"
+            "lambdaFunction": "demoamplifybase2ae0b9d7"
         }
     ],
     "privacy": {
         "auth": 0,
         "unauth": 0,
-        "authRoleName": "amplify-demoamplifybase-dev-161025-authRole",
-        "unAuthRoleName": "amplify-demoamplifybase-dev-161025-unauthRole"
+        "authRoleName": "amplify-demoamplifybase-dev-121324-authRole",
+        "unAuthRoleName": "amplify-demoamplifybase-dev-121324-unauthRole"
     },
     "dependsOn": [
         {
             "category": "function",
-            "resourceName": "demoamplifybaseac90cf9e",
+            "resourceName": "demoamplifybase2ae0b9d7",
             "attributes": [
                 "Name",
                 "Arn"

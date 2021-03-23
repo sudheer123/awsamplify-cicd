@@ -1,31 +1,22 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-demoamplifybase-dev-161025-authRole",
-      "UnauthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-161025-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-161025-authRole",
+      "AuthRoleName": "amplify-demoamplifybase-dev-121324-authRole",
+      "UnauthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-121324-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::871227404402:role/amplify-demoamplifybase-dev-121324-authRole",
       "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-demoamplifybase-dev-161025-deployment",
-      "UnauthRoleName": "amplify-demoamplifybase-dev-161025-unauthRole",
-      "StackName": "amplify-demoamplifybase-dev-161025",
-      "StackId": "arn:aws:cloudformation:us-west-2:871227404402:stack/amplify-demoamplifybase-dev-161025/06ee0a60-8afb-11eb-a786-0ac20f515167",
-      "AmplifyAppId": "dobb70d0ky58e"
+      "DeploymentBucketName": "amplify-demoamplifybase-dev-121324-deployment",
+      "UnauthRoleName": "amplify-demoamplifybase-dev-121324-unauthRole",
+      "StackName": "amplify-demoamplifybase-dev-121324",
+      "StackId": "arn:aws:cloudformation:us-west-2:871227404402:stack/amplify-demoamplifybase-dev-121324/14703480-8ba3-11eb-8215-0270bca77f53",
+      "AmplifyAppId": "dh28wxq1x61cj"
     },
     "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "dobb70d0ky58e",
-          "type": "manual"
-        }
-      },
       "function": {
-        "demoamplifybaseac90cf9e": {
-          "deploymentBucketName": "amplify-demoamplifybase-dev-161025-deployment",
-          "s3Key": "amplify-builds/demoamplifybaseac90cf9e-623970427078412f6c36-build.zip"
+        "demoamplifybase2ae0b9d7": {
+          "deploymentBucketName": "amplify-demoamplifybase-dev-121324-deployment",
+          "s3Key": "amplify-builds/demoamplifybase2ae0b9d7-644e34373074566d554d-build.zip"
         }
-      },
-      "auth": {
-        "demoamplifybaseaac36fe6": {}
       }
     }
   }

@@ -1,40 +1,25 @@
 {
   "function": {
-    "demoamplifybaseac90cf9e": {
+    "demoamplifybase2ae0b9d7": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "api": {
-    "apid0f7f301": {
+    "apie2f94a35": {
       "service": "API Gateway",
       "providerPlugin": "awscloudformation",
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "demoamplifybaseac90cf9e",
+          "resourceName": "demoamplifybase2ae0b9d7",
           "attributes": [
             "Name",
             "Arn"
           ]
         }
       ]
-    }
-  },
-  "hosting": {
-    "amplifyhosting": {
-      "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
-    }
-  },
-  "auth": {
-    "demoamplifybaseaac36fe6": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
     }
   }
 }

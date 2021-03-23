@@ -14,15 +14,15 @@
         },
     
     
-          "functiondemoamplifybaseac90cf9eName": {
+          "functiondemoamplifybase2ae0b9d7Name": {
             "Type": "String",
-            "Default": "functiondemoamplifybaseac90cf9eName"
+            "Default": "functiondemoamplifybase2ae0b9d7Name"
           },
         
           
-          "functiondemoamplifybaseac90cf9eArn": {
+          "functiondemoamplifybase2ae0b9d7Arn": {
             "Type": "String",
-            "Default": "functiondemoamplifybaseac90cf9eArn"
+            "Default": "functiondemoamplifybase2ae0b9d7Arn"
           }
         
           
@@ -45,16 +45,16 @@
         
         
         
-      "apid0f7f301": {
+      "apie2f94a35": {
         "Type": "AWS::ApiGateway::RestApi",
         "Properties": {
           "Description": "",
-          "Name": "apid0f7f301",
+          "Name": "apie2f94a35",
           "Body": {
             "swagger": "2.0",
             "info": {
               "version": "2018-05-24T17:52:00Z",
-              "title": "apid0f7f301"
+              "title": "apie2f94a35"
             },
             "host": {
                 "Fn::Join": [
@@ -176,7 +176,7 @@
                             
                             {
                                 
-                                "Ref": "functiondemoamplifybaseac90cf9eArn"
+                                "Ref": "functiondemoamplifybase2ae0b9d7Arn"
                             },
                             
                             "/invocations"
@@ -275,7 +275,7 @@
                           
                           {
                             
-                            "Ref": "functiondemoamplifybaseac90cf9eArn"
+                            "Ref": "functiondemoamplifybase2ae0b9d7Arn"
                           },
                           
                           "/invocations"
@@ -332,12 +332,12 @@
                   
         
         
-        "functiondemoamplifybaseac90cf9ePermissionapid0f7f301": {
+        "functiondemoamplifybase2ae0b9d7Permissionapie2f94a35": {
             "Type": "AWS::Lambda::Permission",
             "Properties": {
                 "FunctionName": 
                     {
-                        "Ref":  "functiondemoamplifybaseac90cf9eName"
+                        "Ref":  "functiondemoamplifybase2ae0b9d7Name"
                     },
                     
                     "Action": "lambda:InvokeFunction",
@@ -356,7 +356,7 @@
                             },
                             ":",
                             {
-                                "Ref": "apid0f7f301"
+                                "Ref": "apie2f94a35"
                             },
                             "/*/*/*"
                         ]
@@ -367,7 +367,7 @@
         
         
         
-      "DeploymentAPIGWapid0f7f301": {
+      "DeploymentAPIGWapie2f94a35": {
         "Type": "AWS::ApiGateway::Deployment",
         "Properties": {
           "Description": "The Development stage deployment of your API.",
@@ -381,7 +381,7 @@
             ]
           },
           "RestApiId": {
-            "Ref": "apid0f7f301"
+            "Ref": "apie2f94a35"
           }
         }
       }
@@ -389,15 +389,15 @@
     "Outputs": {
         "RootUrl": {
             "Description": "Root URL of the API gateway",
-            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apid0f7f301"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
+            "Value": {"Fn::Join": ["", ["https://", {"Ref": "apie2f94a35"}, ".execute-api.", {"Ref": "AWS::Region"}, ".amazonaws.com/", {"Fn::If": ["ShouldNotCreateEnvResources","Prod", {"Ref": "env"} ]}]]}
         },
         "ApiName": {
           "Description": "API Friendly name",
-          "Value": "apid0f7f301"
+          "Value": "apie2f94a35"
         },
         "ApiId": {
           "Description": "API ID (prefix of API URL)",
-          "Value": {"Ref": "apid0f7f301"}
+          "Value": {"Ref": "apie2f94a35"}
         }
     }
   }
